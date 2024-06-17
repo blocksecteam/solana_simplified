@@ -1,0 +1,16 @@
+[package]
+name = "hello-solana"
+version = "0.1.0"
+edition = "2021"
+authors = ["las"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+borsh = "0.10.0"
+borsh-derive = "0.10.0"
+solana-program = "=1.17.25"
+
+
+[lib]
+crate-type = ["cdylib", "lib"]

@@ -1,0 +1,16 @@
+{
+  "name": "hello-solana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node client/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.93.0",
+    "borsh": "^2.0.0"
+  }
+}
