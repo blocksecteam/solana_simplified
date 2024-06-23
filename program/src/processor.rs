@@ -1,7 +1,6 @@
 use crate::instructions::init::init;
 use crate::instructions::list::list_articles;
 use crate::instructions::post::post_article;
-use crate::instructions::update::update_article;
 use solana_program::program_error::ProgramError;
 use solana_program::{
     account_info::AccountInfo, entrypoint, entrypoint::ProgramResult, pubkey::Pubkey,
